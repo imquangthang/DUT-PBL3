@@ -1,0 +1,40 @@
+.button-list {
+  display: flex;
+  justify-content: space-between;
+}
+.links_locat {
+  max-width: 90% !important;
+}
+
+.name-company,
+.username {
+  max-width: 90%;
+}
+
+.headcount {
+  max-width: 40%;
+}
+
+.address {
+  max-width: 60%;
+}
+
+.address_user {
+  max-width: 100%;
+}
+
+.headcount,
+.address,
+.address_user {
+  display: block;
+  padding: 4px 8px;
+  color: #000;
+  background-color: #f3f5f7 !important;
+  border-radius: 5%;
+}
+
+.text_ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

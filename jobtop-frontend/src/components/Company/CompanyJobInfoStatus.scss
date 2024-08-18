@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:wght@600&display=swap");
+
+thead {
+  font-family: "Poppins", sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
+  color: #666;
+}
+.name {
+  display: inline-block;
+}
+.bg-blue {
+  background-color: #ebf5fb;
+  border-radius: 8px;
+}
+.fa-check,
+.fa-minus {
+  color: blue;
+}
+.bg-blue:hover {
+  background-color: #3e64ff;
+  color: #eee;
+  cursor: pointer;
+}
+.bg-blue:hover .fa-check,
+.bg-blue:hover .fa-minus {
+  background-color: #3e64ff;
+  color: #eee;
+}
+
+.table thead th,
+.table td {
+  border: none;
+}
+
+.table tbody td:first-child {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.table tbody td:last-child {
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#spacing-row {
+  height: 10px;
+}
+
+.table tbody td .active,
+.table tbody td .waiting,
+.table tbody td .warning {
+  background-color: #b9f6ca;
+  color: #388e3c;
+  font-weight: 600;
+  padding: 1px 10px;
+  border-radius: 15px;
+  font-size: 0.9rem;
+}
+
+.table tbody td .waiting {
+  background-color: #ffecb3;
+  color: #ffa000;
+}
+.table tbody td .warning {
+  background-color: #f4929d;
+  color: #ff0004;
+}
+
+.table tbody td .active .circle,
+table tbody td .waiting .circle,
+.table tbody td .warning .circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #388e3c;
+}
+
+.table tbody td .waiting .circle {
+  background-color: #ffa000;
+}
+
+.table tbody td .warning .circle {
+  background-color: #ff0004;
+}
+@media (max-width: 575px) {
+  .container {
+    width: 125%;
+    padding: 20px 10px;
+  }
+}

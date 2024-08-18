@@ -1,0 +1,16 @@
+.modal .loading-container {
+  min-height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalConfirm-footer {
+  justify-content: center;
+  position: relative;
+  :last-child {
+    position: absolute;
+    right: 12px;
+  }
+}

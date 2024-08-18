@@ -1,0 +1,29 @@
+.sortable-moves {
+  -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.14);
+}
+
+.sortable-moves {
+  text-align: left;
+  padding: 1.25rem;
+  font-size: 14px;
+  line-height: 1.55556em;
+  list-style-type: none;
+  min-height: 3.55556em;
+  position: relative;
+  background-color: #fff;
+}
+
+.window-viewCV {
+  width: 100%;
+  height: 100vh;
+}
+
+.modalViewCV-footer {
+  justify-content: center;
+  position: relative;
+  :last-child {
+    position: absolute;
+    right: 12px;
+  }
+}
